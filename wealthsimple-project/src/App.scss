@@ -1,0 +1,7 @@
+@use  './styles/partials/variables' as *;
+
+html, body, #root {
+    padding: 0;
+    margin: 0;
+    font-family: $Primary-Font;
+}

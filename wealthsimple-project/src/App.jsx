@@ -1,14 +1,14 @@
-import HomePage from "./pages/HomePage";
 import "./App.scss";
-
-function App() {
+import {BrowserRouter, Routes, Route}from 'react-router-dom';
+import Simulator from "./pages/Simulator/Simulator";
+import HomePage from "./pages/HomePage";
+const App = () => {
   return (
     <BrowserRouter>
-      <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/simulator" element={<Simulator />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }
