@@ -1,4 +1,30 @@
 @use  '../../styles/partials/variables' as *;
 
 .slider {
+&__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  &__label {
+    font-size: 12px;
+    margin-right: 4vw;
+    font-family: inherit !important;
+    font-weight: bold;
+    width: 100px;
+  }
+  
+  &__value {
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: inherit !important;
+  }
 }

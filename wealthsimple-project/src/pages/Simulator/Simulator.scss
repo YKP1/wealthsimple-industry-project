@@ -1,4 +1,10 @@
 @use  '../../styles/partials/variables' as *;
 
 .simulator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $Background-Beige;
+    gap: 5vw;
 }
